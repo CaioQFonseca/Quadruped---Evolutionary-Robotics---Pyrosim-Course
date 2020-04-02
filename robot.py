@@ -89,13 +89,3 @@ class ROBOT:
 				sim.send_synapse(source_neuron_id = self.SN[s], target_neuron_id = self.MN[j], weight = wts[s,j])
 			
 
-
-			#for m in self.motorNeurons:
-			#	sim.send_synapse(source_neuron_id = self.sensorNeurons[s], target_neuron_id = self.motorNeurons[m], weight = wts[s])
-		
-		#sim.send_synapse(source_neuron_id = SN1, target_neuron_id = MN2, weight = wt)
-#creates a synapse that connects neuron SN1 to neuron MN2 
-# the magnitude of the influence of the source neuron on its target neuron is controlled by a synapse's weight
-		#sim.send_synapse(source_neuron_id = SN0, target_neuron_id = MN2, weight = -1.0)
-
-
